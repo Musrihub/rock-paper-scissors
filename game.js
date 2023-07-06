@@ -38,16 +38,14 @@
                         }
                     }
                         function game(){
+                            for(i= 1; i<= 5; i++){
 
                             const playerSelection = prompt("enter Rock, Paper or Scissors").toLowerCase();
                             const computerSelection = getComputerChoice();
                             console.log(playRound(playerSelection, computerSelection));
-        
+                            }
                             }
                             game();
-                            game();
-                            game();
-                            game();
-                            game();        
+                                  
                     
                    
