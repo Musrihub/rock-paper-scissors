@@ -1,10 +1,13 @@
+    
+    
     function getComputerChoice(){
     const selection =["rock", "paper", "scissors"];
-    const randomChoice = selection[Math.floor(Math.random() * 3)];
+    const randomChoice = selection[Math.floor(Math.random() * 3)];//computer choice randomly
         return randomChoice;
     }
 
-    function playRound(playerSelection, computerSelection){
+
+   function playRound(playerSelection, computerSelection){
 
         if (playerSelection ==="rock" && computerSelection === "paper"){
             return "You lose! Paper beats Rock";
@@ -35,10 +38,4 @@
                         }
                  
                     }
-                    const playerSelection = prompt("enter Rock, Paper or Scissors").toLowerCase();
-                    console.log(playerSelection);
-                    const computerSelection = getComputerChoice();
-                    console.log(computerSelection);
-                    console.log(playRound(playerSelection, computerSelection));
-
-                    
+                   
