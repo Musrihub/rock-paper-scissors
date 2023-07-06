@@ -36,6 +36,18 @@
                     else if (playerSelection === computerSelection){
                         return "Draw";
                         }
-                 
                     }
+                        function game(){
+
+                            const playerSelection = prompt("enter Rock, Paper or Scissors").toLowerCase();
+                            const computerSelection = getComputerChoice();
+                            console.log(playRound(playerSelection, computerSelection));
+        
+                            }
+                            game();
+                            game();
+                            game();
+                            game();
+                            game();        
+                    
                    
